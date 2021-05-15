@@ -30,13 +30,11 @@
   .hero-image img {
     inline-size: 450px;
     block-size: 454px;
-    border: 1px solid white;
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero {
-    border: 1px solid red;
     display: flex;
     gap: 32px;
   }
