@@ -12,6 +12,11 @@
   text-align: center;
 }
 
+.hero-image img{
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
 .hero h1 {
   font: var(--headline3);
   margin: 0;
@@ -51,5 +56,8 @@
   .hero-image img {
   inline-size: 380px;
   block-size: 380px;
+  max-inline-size: 100%;
+  block-size: auto;
+
 }
 
