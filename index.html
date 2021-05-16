@@ -10,26 +10,30 @@
   <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
+
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <img src="./images/LOGO.png" alt="Logo" width="70" height="20">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a class="is-active" href="#main">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">Curriculum</button>
+      </div>
+    </div>
+  </header>
+
   <div class="wrapper">
-    <header class="header">
-
-      <img src="./images/LOGO.png" alt="Logo" width="70" height="20">
-      <nav class="menu" aria-label="main-navigation">
-        <ul>
-          <li>
-            <a class="is-active" href="#main">Hola</a>
-          </li>
-          <li>
-            <a href="#project">Proyectos</a>
-          </li>
-          <li>
-            <a href="#contact">Hablemos</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="button">Curriculum</button>
-    </header>
-
     <section aria-label="main" class="hero" id="main">
       <div class ="hero-image">
         <img src="./images/vetas.jpg" alt="foto" width="338" height="330">
@@ -53,24 +57,24 @@
       </div>
     </section>
 
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project" id="project">
+      <div class="project-image">
         <img src="images/Desktop.png" alt="Imagen Desktop">
       </div>
-      <div class="testimony-description">
-        <a class="testimony-title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
+      <div class="project-description">
+        <a class="title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
         <p>Los apuntes en notion de DATA ACADEMY, curso que estoy desarrollando dentro de Platzi, dentro de la línea de analisis de datos</p>
         <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
         <a<a target="_blank" href="#"  class="button">Ver Notion</a>
       </div>
     </div>
 
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project">
+      <div class="project-image">
         <img src="images/iPad.png" alt="Imagen Desktop">
       </div>
-      <div class="testimony-description">
-        <a class="testimony-title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
+      <div class="project-description">
+        <a class="title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
         <p>Los apuntes en notion de DATA ACADEMY, curso que estoy desarrollando dentro de Platzi, dentro de la línea de
           analisis de datos</p>
         <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
@@ -78,38 +82,57 @@
       </div>
     </div>
 
-    <div class="testimony">
-      <div class="testimony-image">
+    <div class="project">
+      <div class="project-image">
         <img src="images/Iphone.png" alt="Imagen Desktop">
       </div>
-      <div class="testimony-description">
-        <a class="testimony-title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
+      <div class="project-description">
+        <a class="title" target="_blank" href="https://duckduckgo.com/">nohora.co</a>
         <p>Los apuntes en notion de DATA ACADEMY, curso que estoy desarrollando dentro de Platzi, dentro de la línea de
           analisis de datos</p>
         <a target="_blank" href="#" class="button is-secondary">Ver Código</a>
         <a<a target="_blank" href="#" class="button">Ver Notion</a>
       </div>
     </div>
-    <footer class="footer">
-      <div class="footer-logo">
-        <img src="./images/LOGO.png" alt="Logo" width="70" height="20">
+    <form action="" method="POST" class="form">
+      <div class="form-content">
+        <h2 class="title">Hablemos</h2>
+        <p>Si está interesado en trabajar conmigo en su próximo proyecto,
+          no dude en ponerse en contacto conmigo.</p>
+        <label for="form-name">Nombre Completo
+          <input required name="name" id="form-name" type="text" placeholder="Pedro">
+        </label>
+        <label for="form-name">Correo Electronico
+          <input require name="name" id="form-name" type="email" placeholder="pedro@gmail.com">
+        </label>
+        <label for="form-name">Mensaje
+          <textarea require name="message" placeholder="Mensaje" id="form-message" cols="30" rows="7"></textarea>
+        </label>
+        <button class="button" type="submit">Enviar Mensaje</button>
       </div>
+    </form>
 
-      <div class="social">
-        <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-github.svg" alt=""></a>
-        <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-instagram.svg" alt=""></a>
-        <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-twitter.svg" alt=""></a>
-        <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-mail.svg" alt=""></a>
-      </div>
-      <div class="footer-copyright">
-        <p>
-          Hecho con Amor 🇨🇴 por Nohora.
-        </p>
-        <p>
+    <footer class="footer" id="contact">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./images/LOGO.png" alt="Logo" width="70" height="20">
+        </div>
+
+        <div class="social">
+          <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-github.svg" alt=""></a>
+          <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-instagram.svg" alt=""></a>
+          <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-twitter.svg" alt=""></a>
+          <a class="button-icon" href="https://www.google.com.co"><img src="./icons/icon-mail.svg" alt=""></a>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            Hecho con Amor 🇨🇴 por Nohora.
+          </p>
+          <p>
             Copyright 2021 - Todos los derechos reservados.
-        </p>
+          </p>
+        </div>
       </div>
-
     </footer>
 
   </div>
