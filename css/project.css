@@ -9,6 +9,8 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
 }
 
 .project-image img {
