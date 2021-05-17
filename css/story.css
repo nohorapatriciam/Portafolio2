@@ -1,0 +1,13 @@
+.story  {
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  background-color: var(--white);
+}
+
+.story-video iframe {
+  position: flex;
+  width: 100%;
+  height: 350px;
+}
+
+
