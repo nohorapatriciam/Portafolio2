@@ -25,14 +25,22 @@
   --purple: #310A90;
   --green: #42E2B8;
   --white: #FFFFFF;
-
+  --red:#EF4565;
+  --gray: #5F6C7B;
+  --blue1:#90B4CE;
+  --blue2:#2B79BD;
+  --blue3:#094067;
+  --background1: #D8EEFE;
+  --background2: #242629;
+  --backbutton:#242629;
+  --backbutton2:#3DA9FC;
 }
 
 body {
-  background: var(--gradient);
+  background: var(--white);
   min-block-size: 100vh;
   font: var(--body1);
-  color:var(--purple);
+  color:var(--gray);
   margin: 0;
 }
 

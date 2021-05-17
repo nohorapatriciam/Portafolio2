@@ -17,8 +17,14 @@
   block-size: auto;
 }
 
+.hero-social{
+  background-color: var(--blue3);
+  text-align: center;
+}
+
 .hero h1 {
   font: var(--headline3);
+  color: var(--blue3);
   margin: 0;
 }
 
