@@ -1,0 +1,13 @@
+.project {
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  background-color: var(--background1);
+}
+.project-aplication{
+  border-radius: 3px;
+  border: 1px solid white;
+  backdrop-filter: blur(10px);
+  background-color: var(--blue1);
+  padding-left: 20px;
+  padding-right: 20px;
+}
